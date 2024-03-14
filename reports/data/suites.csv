@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Mar 14 17:56:46 CST 2024","Thu Mar 14 17:56:46 CST 2024","1","testcases","test_jiaoyu","TestJiaoyu","","","test_hanhai",""
+"passed","Thu Mar 14 17:56:46 CST 2024","Thu Mar 14 17:56:46 CST 2024","103","testcases.user_manage","test_api","TestApi","","","test_01_get_token[caseinfo0]",""
+"passed","Thu Mar 14 17:56:45 CST 2024","Thu Mar 14 17:56:46 CST 2024","731","testcases.product_manage","test_mashang","Test","","","test_baili[caseinfo0]",""

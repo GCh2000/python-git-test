@@ -1,0 +1,38 @@
+#msjy:
+#  - name1: 百里
+#  - name2:
+#    - ages1: 18
+#    - ages2: 19
+#  - name3: 依然
+-
+  name: 获取统一的接口鉴权码
+  request:
+    method: get
+    url: https://api.weixin.qq.com/cgi-bin/token
+    data:
+      grant_type: client_credential
+      appid: wx6b11b3efd1cdc290
+      secret: 106a9c6157c4db5f6029918738f9529d
+  validate: None
+#-
+#  name: 获取统一的接口鉴权码
+#  request:
+#    method: get
+#    url: https://api.weixin.qq.com/cgi-bin/token
+#    data:
+#      grant_type: ''
+#      appid: wx6b11b3efd1cdc290
+#      secret: 106a9c6157c4db5f6029918738f9529d
+#  validate: None
+#-
+#  name: 获取统一的接口鉴权码
+#  request:
+#    method: get
+#    url: https://api.weixin.qq.com/cgi-bin/token
+#    data:
+#      grant_type: client_credential
+#      appid: ''
+#      secret: 106a9c6157c4db5f6029918738f9529d
+#  validate: None
+
+
