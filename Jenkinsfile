@@ -9,7 +9,9 @@ pipeline{
     }
     post {
     always {
-        // One or more steps need to be included within each condition's block.
+        
+        junit stdioRetention: '', testResults: 'outputs/result.xml'
+        
         emailext body: ''' <html>
                             <h1>total cases:${TEST_COUNTS,var=\'total\'}</h1>
                             <h1>pass cases:${TEST_COUNTS,var=\'pass\'}</h1>
