@@ -1,4 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Fri Mar 15 16:33:35 CST 2024","Fri Mar 15 16:33:35 CST 2024","232","testcases.product_manage","test_mashang","Test","","","test_baili[caseinfo0]",""
-"passed","Fri Mar 15 16:33:35 CST 2024","Fri Mar 15 16:33:35 CST 2024","0","testcases","test_jiaoyu","TestJiaoyu","","","test_hanhai",""
-"passed","Fri Mar 15 16:33:35 CST 2024","Fri Mar 15 16:33:35 CST 2024","106","testcases.user_manage","test_api","TestApi","","","test_01_get_token[caseinfo0]",""
+"passed","Fri Mar 15 17:13:41 CST 2024","Fri Mar 15 17:13:42 CST 2024","91","testcases.user_manage","test_api","TestApi","","","test_01_get_token[caseinfo0]",""
+"passed","Fri Mar 15 17:13:41 CST 2024","Fri Mar 15 17:13:41 CST 2024","215","testcases.product_manage","test_mashang","Test","","","test_baili[caseinfo0]",""
+"passed","Fri Mar 15 17:13:41 CST 2024","Fri Mar 15 17:13:41 CST 2024","1","testcases","test_jiaoyu","TestJiaoyu","","","test_hanhai",""
