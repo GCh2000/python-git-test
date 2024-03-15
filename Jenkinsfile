@@ -2,7 +2,7 @@ pipeline{
     agent any
     
     environment{
-        JobName = "ÄûÃÊ°àÏîÄ¿"
+        JobName = "æŸ æª¬ç­é¡¹ç›®"
     }
 
     stages {
