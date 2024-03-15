@@ -18,7 +18,7 @@ pipeline{
         <h1>pass cases:${TEST_COUNTS,var="pass"}</h1> 
         <h1>fail cases:${TEST_COUNTS,var="fail"}</h1> 
         </html>''', 
-        subject:"job ${env.JOB_BASE_NAME},result:${currentBuild.currentResult}"
+        subject:"job ${env.JOB_BASE_NAME},result:${currentBuild.currentResult}",
         to: '1293947641@qq.com'
   }
 }
