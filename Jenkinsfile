@@ -7,4 +7,16 @@ pipeline{
             }
         }
     }
+    post {
+    always {
+        // One or more steps need to be included within each condition's block.
+        emailext body: ''' <html>
+                            <h1>total cases:${TEST_COUNTS,var=\'total\'}</h1>
+                            <h1>pass cases:${TEST_COUNTS,var=\'pass\'}</h1>
+                            <h1>fail cases:${TEST_COUNTS,var=\'fail\'}</h1>
+                            </html>''', 
+                  subject: 'pipeline email notify', to: '1293947641@qq.com'
+  }
+}
+
 }
